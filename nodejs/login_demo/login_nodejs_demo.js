@@ -7,7 +7,7 @@ var contents = querystring.stringify({
 });
  
 var options = {
-    host:'test.open.badambiz.com',
+    host:'open.badambiz.com',
     path:'/api/user/verify_token/',
     method:'POST',
     headers:{
